@@ -20,7 +20,6 @@ const Navbar = () => {
               height={50}
               className="rounded-full"
             />
-            <span className="text-yellow-500">.</span>
           </a>
         </div>
 
