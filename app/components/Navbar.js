@@ -26,11 +26,11 @@ const Navbar = () => {
         {/* Menu */}
         <div className="hidden lg:flex flex-col lg:flex-row lg:items-center lg:space-x-8">
           <ul className="flex flex-col lg:flex-row lg:space-x-8 text-center">
-            <NavItem label="Home" href="#home" isActive />
-            <NavItem label="New Arrival" href="#new-arrivals" />
-            <NavItem label="Features" href="#feature" />
-            <NavItem label="Blog" href="#blog" />
-            <NavItem label="Contact" href="#newsletter" />
+            <NavItem label="Home" href="#home" />
+            <NavItem label="About" href="#about" />
+            <NavItem label="Packages" href="#featured-packages" />
+            <NavItem label="Gallery" href="#destinations" />
+            <NavItem label="Contact" href="#inquiry-form" />
           </ul>
         </div>
 
