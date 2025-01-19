@@ -41,7 +41,8 @@ const InquiryForm = () => {
         {/* Inquiry Form */}
         <form
           onSubmit={handleSubmit}
-          className="w-3/5 mx-auto bg-white bg-opacity-50 dark:bg-gray-700 dark:bg-opacity-80 p-8 rounded-lg shadow-lg backdrop-blur-md"
+          // className="w-3/5 mx-auto bg-white bg-opacity-50 dark:bg-gray-700 dark:bg-opacity-80 p-8 rounded-lg shadow-lg backdrop-blur-md"
+          className="w-full sm:w-3/5 mx-auto bg-opacity-50 dark:bg-opacity-80 p-4 sm:p-8 "
         >
           {/* Name Field */}
           <div className="mb-6 col-12">
@@ -57,7 +58,7 @@ const InquiryForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent dark:bg-gray-600 dark:text-white dark:border-gray-500 italic"
+              className="w-full p-4 border-2 border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent dark:bg-gray-600 dark:text-white dark:border-gray-500 italic"
               required
             />
           </div>
@@ -76,7 +77,7 @@ const InquiryForm = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent dark:bg-gray-600 dark:text-white dark:border-gray-500 italic"
+              className="w-full p-4 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent dark:bg-gray-600 dark:text-white dark:border-gray-500 italic"
               required
             />
           </div>
@@ -95,7 +96,7 @@ const InquiryForm = () => {
               value={formData.message}
               onChange={handleChange}
               rows="4"
-              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent dark:bg-gray-600 dark:text-white dark:border-gray-500 italic"
+              className="w-full p-4 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent dark:bg-gray-600 dark:text-white dark:border-gray-500 italic"
               required
             ></textarea>
           </div>
@@ -104,7 +105,8 @@ const InquiryForm = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="bg-blue-500 text-white py-3 px-6 rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-blue-700 dark:hover:bg-blue-800"
+              // className="bg-blue-500 text-white py-3 px-6 rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-blue-700 dark:hover:bg-blue-800"
+              className="bg-transparent text-gray-500 py-3 px-6 rounded-full border-2 border-gray-500 hover:bg-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
             >
               Submit
             </button>

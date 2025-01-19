@@ -35,7 +35,7 @@ const WelcomeHero = () => {
         <a
           href="https://docs.google.com/forms/d/1z5QRNlW_U4m-aJ3vNz8zLERcgbDlMQBzhMXcMuaYvFw/viewform?edit_requested=true"
           target="_blank"
-          className="inline-block bg-blue-500 text-white py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300"
+          className="bg-transparent text-gray-200 py-3 px-6 rounded-full border-2 border-gray-200 hover:bg-gray-300 hover:text-black focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-gray-200 dark:hover:text-black"
         >
           Book Now
         </a>
