@@ -1,7 +1,7 @@
 const WelcomeHero = () => {
   return (
     <section
-      id="welcome-hero"
+      id="home"
       className="relative h-screen text-white dark:bg-gray-800 dark:text-white"
 
       //style={{

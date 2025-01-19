@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Brand */}
         <div className="flex items-center">
           <a
-            href="index.html"
+            href="#home"
             className="text-white font-medium text-2xl hover:text-gray-200 focus:text-gray-200 transition"
           >
             <Image
